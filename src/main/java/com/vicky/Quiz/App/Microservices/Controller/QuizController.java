@@ -19,7 +19,8 @@ import com.vicky.Quiz.App.Microservices.Model.QuestionWrapper;
 import com.vicky.Quiz.App.Microservices.Model.Response;
 import com.vicky.Quiz.App.Microservices.Service.QuizService;
 
-@CrossOrigin(origins = "http://localhost:3000")
+
+@CrossOrigin(origins = "https://deft-taffy-f418cf.netlify.app")
 @RestController
 @RequestMapping("quiz")
 public class QuizController {

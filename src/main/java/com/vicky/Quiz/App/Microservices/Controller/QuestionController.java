@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.vicky.Quiz.App.Microservices.Model.Question;
 import com.vicky.Quiz.App.Microservices.Service.QuestionService;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://deft-taffy-f418cf.netlify.app")
 @RestController
 @RequestMapping("question")
 public class QuestionController {
